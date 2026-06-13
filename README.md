@@ -1,3 +1,13 @@
+# sozutverswitcher
+My personal fork of Space Core#0358's Undertale version switcher, intended to make it easier to use on Unix-like platforms.
+
+Currently all .bat files are being remade using (hopefully) POSIX-complaint shell scripts, so far only tested on Android with the Debian Almquist Shell (dash).
+
+Windows-only binaries are replaced with equivalent utilities compiled using [the Cosmopolitan toolchain](https://justine.lol/cosmopolitan/), which should hopefully run on various x86-64 and AArch64 OSes.
+
+## Original README
+
+```
 Hello! This is Space Core#0358's Undertale version switcher. You got one version of Undertale? With this, you got them all.
 
 Converting versions has three steps:
@@ -22,3 +32,4 @@ That's it! Thanks to:
 
 ----
 Version 1.0.3
+```
